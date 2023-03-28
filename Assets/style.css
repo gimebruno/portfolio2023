@@ -1,0 +1,70 @@
+
+.background{
+  background-color: linear-gradient( 35deg,
+  #ccffff,
+  #ffcccc
+);
+;
+}
+
+h1{
+    font-family: "Gideon Roman";
+    border-radius: 20%;
+}
+.col-4{
+  padding: 3%;
+  
+}
+.col-8{
+  padding: 3%;
+  
+  
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+button.groove {
+  border-style: groove;
+  border-radius:8px;
+  padding:5px;
+  background-color: transparent;
+}
+a{
+  color: #000;
+  font-family: "Staatliches";
+}
+a:link{
+  color:#000;
+}
+a:hoover {
+  color:#000;
+}
+a:active{
+  color:#000;
+}
+.groove{
+  border-style: groove;
+  border-radius:8px;
+  padding:5px;
+}
+.groove:hover{
+  transform: scale(1.1);
+}
+.btn-group-lg { 
+  background-color: transparent;
+}
+.jumbotron-fluid{
+  background: linear-gradient( 35deg,
+  #ccffff,
+  #ffcccc
+);
+padding:150px;
+}
+.title-portfolio{
+  margin-left: 30px;
+  font-size: 50px;
+  font-family: "Gideon Roman";
+}
+
