@@ -5,76 +5,113 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-</head>
+    <script src="Assets/javascript.js"></script>
+    <script src="https://kit.fontawesome.com/17c72ed6b1.js" crossorigin="anonymous"></script>
+  </head>
 <body>
     <div class="background">
 
-    <!--nav bar-->
-    <div class="btn-group-lg"> 
-        <button type="button" class="groove"><a href="#">Experience</a></button>  
-        <button type="button" class="groove"><a href="#">Education</a></button>
-        <button type="button" class="groove"><a href="#">Contact me</a></button>
+<!--Aboutme-->
+  <div class="row" >
+    <div class="col-6" id="hero" style="background-image: url(./public/profile_picture.jpg);" >   </div>
+    <div class="col-6" style="background-color: lavender;" >
+      <h1 style="text-align:center; margin-top: 30%;">Sobre Mí</h1>
+      <p id="aboutme"><br> Hola! Soy Gimena Bruno. Tengo 27 años, soy Artista y estudiante de la Lic en Producción de Videojuegos en la Universidad de Rafaela. Soy una persona muy sensible que intenta conectar con el mundo que me rodea a través de la fotografía, además me gusta indagar en mi mundo interior a través del dibujo y los collages.   </p></div>
+    </div></div> 
 </div>
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid"></div>
-        <h1 class="title-portfolio"> <b> Gimena Bruno</b></h1>
-        <h2 class="title-portfolio">Portfolio</h2>
+<!--mis trabajos-->
+  <div class="text-center">
+  <div class="g-col-4"></div>
+  <div class="g-col-4" padding-top: 20%> <h1>Mis Trabajos</h1></div>
+  <div class="g-col-4"></div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="./public/_MG_0568.jpg" alt="work 1"  width="300" height="200">
+      </div>
+      <div class="col">
+        <img src="./public/_MG_0633.jpg" alt="work 2" width="300" height="200">
+      </div>
+      <div class="col">
+        <img src="./public/_MG_0664.jpg" alt="work 3" width="300" height="200">
+      </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <img src="./public/IMG_1087.jpg" alt="work 4" width="300" height="200">
+      </div>
+      <div class="col">
+        <img src="./public/IMG_1187.jpg" alt="work 5" width="300" height="200">
+      </div>
+      <div class="col">
+        <img src="./public/IMG_1197.jpg" alt="work 6" width="300" height="200">
+      </div>
+    </div>
+  </div>
 
-<!--links paginas web-->
-<div class="container-fluid pt-3">
-    <div class="row" id="Links">
-        <div class="col-3" style="background-color:transparent;"></div>
-      <div class="col-3" style="background-color:transparent;"><h3><a href="https://www.linkedin.com/in/gimena-bruno-2156a1119/">Linkedin</a></h1></div>
-        <div class="col-3" style="background-color:transparent;"><h3><a href="#">Git Hub</a></h1></div>
-        <div class="col-3" style="background-color:transparent;"><h3><a href="#">Behance</a></h1></div>
-  </div>
-  <!--profile picture-->
-  <div class="box">
-      <div><img src="../Elements/profile_picture.jpg" class="rounded img-fluid" alt="profilepicture" width="300" height="200" ></div>
-      <div><p style="padding:50px;">About me: <br> Hola! ni nombre es Gimena Bruno y soy estudiante de UnRaf </p></div>
-  </div>
-<!--Experience container-->
-<div class="container-fluid pt-3">
-    <h1>Experience</h1>
-    <div class="row" >
-      <div class="col-4" style="background-color:lavender;"><h1>Experience 1</h1></div>
-      <div class="col-8" style="background-color:lavender;"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quaerat incidunt corporis iure temporibus deleniti odio, possimus aliquam dolorum. Soluta possimus qui nisi architecto aliquam perspiciatis modi minima assumenda perferendis.</div>
-      </p>  </div>
-  </div>
-  <!--Education container-->
-<div class="container-fluid pt-3">
-    <h1>Education</h1>
+
+  <!--Educacion -->
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+      <div class="col-4"></div> </div>
     <div class="row" id="education">
-      <div class="col-4" style="background-color:lavender;"><h1>Education 1</h1></div>
-      <div class="col-8" style="background-color:lavender;"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quaerat incidunt corporis iure temporibus deleniti odio, possimus aliquam dolorum. Soluta possimus qui nisi architecto aliquam perspiciatis modi minima assumenda perferendis.</div>
-      </p>  </div>
-  </div>
-  <div class="container-fluid pt-3">
-    <h1>Hard/Soft Skills</h1>
+      <div class="col-4" style="background-color:lavender;"><img src="./public/design_icon.png" width="70%"></div>
+      <div class="col-4" style="background-color:lavender;"><h1 style="text-align: center;">Estudios</h1><p style="text-align: center;">Actualmente me encuentro cursando el segundo año de la Licenciatura en Producción de Videojuegos y Entretenimiento Digital de la Universidad Nacional de Rafaela. Anteriormente curse hasta el segundo año de la Lic en Artes Audiovisuales en la Universidad Nac. de Avellaneda. También realicé cursos de Illustrator, After Effects en Doméstica. De manera autodidacta aprendí fotografía y el uso de Adobe Photoshop e Illustrator.</div>
+      </p> 
+      <div class="col-4" style="background-color:lavender;"></div> </div>
+
+  <!--Gustos-->
+
     <div class="row" id="skills">
-      <div class="col-12" style="background-color:lavender;padding:50px;" ><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quaerat incidunt corporis iure temporibus deleniti odio, possimus aliquam dolorum. Soluta possimus qui nisi architecto aliquam perspiciatis modi minima assumenda perferendis.</div>
-      </p>  </div>
-  </div>
-  <div class="container-fluid pt-3">
-    <h1>Proyects</h1>
-    <div class="row" id="proyects">
-      <div class="col-12" style="background-color:lavender;padding:50px;" ><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quaerat incidunt corporis iure temporibus deleniti odio, possimus aliquam dolorum. Soluta possimus qui nisi architecto aliquam perspiciatis modi minima assumenda perferendis.</div>
-      </p>  </div>
-  </div>
-  <div class="container-fluid pt-3">
-    <h1>Contact</h1>
+      <div class="col-4" style="background-color:lavender;"></div>
+      <div class="col-4" style="background-color:lavender;padding:50px;" >
+          <ul> <h1 style="text-align: center;">Gustos e Inspiración</h1><p style="text-align: center;">Me gusta explorar y aprender sobre el arte. Dibujo, escribo y saco fotografías. Me gusta mirar  pinturas y admirarlas desde un lado sensible, dejandome atravesar por los colores, las formas y los elementos que la componen formando una poesía visual. La música también es otro de mis intereses, me gusta escuchar jazz, ambient y  electrónica. Me gusta cuando la música forma "Paisajes sonoros" donde se puede cerrar los ojos y percibir los sonidos como colores y elementos. Mis artistas favoritos son  </p>
+            <li>Vasili Kandinski </li>
+            <li>Man Ray</li>
+            <li>Charly García</li>
+            <li>Nicolas Jaar</li>
+            
+          </ul></div>
+    
+      <div class="col-4" style="background-color:lavender;"><img src="./public/searching_icon.png" width="70%" ></div> </div>
+  
+  <!--Contact container-->
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+      <div class="col-4"></div>   </div>
     <div class="row" id="contact">
-      <div class="col-12" style="background-color:lavender; padding:50px;" ><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quaerat incidunt corporis iure temporibus deleniti odio, possimus aliquam dolorum. Soluta possimus qui nisi architecto aliquam perspiciatis modi minima assumenda perferendis.</div>
-      </p>  </div>
-  </div>
-</div></body>
+      <div class="col-4" style="background-color:lavender;"><img src="./public/contact_icon.png" width="70%"></div>
+      <div class="col-4" style="background-color:lavender; padding:50px;" > <h1 style="text-align:center;"> Contacto</h1> <form action="" method="post">
+        <input type="text"  class="form-control"  name="name" placeholder="Nombre"><br>
+        <input type="text" class="form-control" name="email" placeholder="Correo Electrónico"><br>
+        <textarea  class="form-control" name="message" placeholder="Escribe tu mensaje aquí"></textarea><br>
+        <button type="submit"  class="btn btn-dark">Enviar</button>
+      </form>
+    </div>
+      <div class="col-4" style="background-color:lavender;">
+      </div>
+       </div>
+  <!--links paginas web-->
+<div class="container-fluid pt-3">
+  <div class="row" id="Links">
+      <div class="col-3" style="background-color:transparent;"></div>
+    <div class="col-3" style="background-color:transparent;"><h3><a href="https://www.linkedin.com/in/gimena-bruno-2156a1119/" target="_blank">Linkedin</a></h1></div>
+      <div class="col-3" style="background-color:transparent;"><h3><a href="https://github.com/gimebruno" target="_blank">Git Hub</a></h1></div>
+      <div class="col-3" style="background-color:transparent;"><h3><a href="https://www.behance.net/gimenabruno" target="_blank">Behance</a></h1></div>
+</div>
+</div>
+</div> </div>
+<footer> Creado por <b> Gimena Bruno</b>. 2023</footer></body>
 
 </html>
